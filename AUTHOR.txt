@@ -1,0 +1,9 @@
+Name: Nicola Mustone
+Email: mail@nicolamustone.it
+Website: http://www.nicolamustone.it
+
+Hi, i'm Nicola Mustone, a 20 years old web/software developer based in Lucera (FG), Italy.
+I'm married with the PHP and MySQL and love all about programmation and the Internet.
+I developed my first website in 2005 and got paid for my first website in 2007.
+Since then i worked for many projects, from small sites to big web applications.
+Currecntly i develope WordPress themes with Your inspiration web ( http://www.yourinspirationweb.com ).

@@ -1,0 +1,464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YCWP QR Me 1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-01 11:51+0100\n"
+"PO-Revision-Date: 2012-03-01 11:51+0100\n"
+"Last-Translator: Nicola Mustone <mail@nicolamustone.it>\n"
+"Language-Team: Nicola Mustone <mail@nicolamustone.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class.qrcode.php:101
+#, php-format
+msgid "Unable to set the size %s."
+msgstr ""
+
+#: class.qrcode.php:136
+#, php-format
+msgid "Unable to set the charset %s."
+msgstr ""
+
+#: class.qrcode.php:150
+#, php-format
+msgid "Unable to set level of error correction %s."
+msgstr ""
+
+#: class.qrcode.php:154
+#, php-format
+msgid "Unable to set the margin %d."
+msgstr ""
+
+#: class.qrcode.php:181
+#, php-format
+msgid "%s property doesn't exist"
+msgstr ""
+
+#: class.qrcode.php:391
+msgid "Unable to set URL as content: "
+msgstr ""
+
+#: class.qrcode.php:398
+#: class.qrcode.php:642
+msgid "Invalid URL: "
+msgstr ""
+
+#: class.qrcode.php:423
+msgid "Unable to set sms content: "
+msgstr ""
+
+#: class.qrcode.php:430
+#: class.qrcode.php:523
+#: class.qrcode.php:559
+msgid " is not a valid telephone number."
+msgstr ""
+
+#: class.qrcode.php:455
+msgid "Unable to set geolocation as content: "
+msgstr ""
+
+#: class.qrcode.php:474
+msgid " is not a valid email address."
+msgstr ""
+
+#: class.qrcode.php:493
+msgid "Unable to set email as content: "
+msgstr ""
+
+#: class.qrcode.php:516
+msgid "Unable to set tel as content: "
+msgstr ""
+
+#: class.qrcode.php:546
+#: class.qrcode-ext/class.qrcode_contact.php:48
+msgid "Insert the name and the telephone number of the contact."
+msgstr ""
+
+#: class.qrcode.php:575
+msgid "Unable to set contact as content: "
+msgstr ""
+
+#: class.qrcode.php:595
+msgid "Unable to set package as content: "
+msgstr ""
+
+#: class.qrcode.php:614
+msgid "Unable to set GitHub path as content: "
+msgstr ""
+
+#: class.qrcode.php:635
+msgid "Unable to set view-source URL as content: "
+msgstr ""
+
+#: class.qrcode.php:665
+msgid " is not a valid authentication type. Choose WPA or WEP."
+msgstr ""
+
+#: class.qrcode.php:678
+msgid "Unable to set wifi as content: "
+msgstr ""
+
+#: ycwp-qr-me.plugin.php:246
+#, fuzzy
+msgid "Settings"
+msgstr "Настройки"
+
+#: ycwp-qr-me.plugin.php:421
+#, fuzzy
+msgid "YCWP QR Me Configuration"
+msgstr "Конфигурация YCWP QR Me"
+
+#: ycwp-qr-me.plugin.php:429
+#: ycwp-qr-me.widget.php:138
+#, fuzzy
+msgid "Content"
+msgstr "Содержание"
+
+#: ycwp-qr-me.plugin.php:433
+msgid "Post permalink"
+msgstr ""
+
+#: ycwp-qr-me.plugin.php:434
+msgid "Share on Facebook link"
+msgstr ""
+
+#: ycwp-qr-me.plugin.php:435
+msgid "Share on Twitter link"
+msgstr ""
+
+#: ycwp-qr-me.plugin.php:436
+msgid "Google +1 link"
+msgstr ""
+
+#: ycwp-qr-me.plugin.php:442
+#, fuzzy
+msgid "Image size"
+msgstr "Размер рисунка"
+
+#: ycwp-qr-me.plugin.php:452
+#, fuzzy
+msgid "QR Code image size ( 200x200px raccomanded )"
+msgstr "Размер рисунка QR Кода ( 200x200px рекомендован )"
+
+#: ycwp-qr-me.plugin.php:457
+#: ycwp-qr-me.widget.php:125
+#, fuzzy
+msgid "Error correction level"
+msgstr "Уровень коррекции ошибок"
+
+#: ycwp-qr-me.plugin.php:466
+#: ycwp-qr-me.widget.php:132
+#, fuzzy, php-format
+msgid "L = 7% of codewords can be restored"
+msgstr "L = 7% кодовых слов могут быть восстановлены"
+
+#: ycwp-qr-me.plugin.php:467
+#: ycwp-qr-me.widget.php:133
+#, fuzzy, php-format
+msgid "M = 15% of codewords can be restored"
+msgstr "M = 15% кодовых слов могут быть восстановлены"
+
+#: ycwp-qr-me.plugin.php:468
+#: ycwp-qr-me.widget.php:134
+#, fuzzy, php-format
+msgid "Q = 25% of codewords can be restored"
+msgstr "Q = 25% кодовых слов могут быть восстановлены"
+
+#: ycwp-qr-me.plugin.php:469
+#: ycwp-qr-me.widget.php:135
+#, fuzzy, php-format
+msgid "H = 30% of codewords can be restored"
+msgstr "H = 30% кодовых слов могут быть восстановлены"
+
+#: ycwp-qr-me.plugin.php:474
+#, fuzzy
+msgid "Additional image classes"
+msgstr "Дополнительные классы изображений"
+
+#: ycwp-qr-me.plugin.php:478
+#: ycwp-qr-me.widget.php:144
+#, fuzzy
+msgid "Comma separated classes and only <strong>alphanumeric chars</strong>, <strong>-</strong> and <strong>_</strong>"
+msgstr "Классы разделенные точкой и только <strong>буквенно-цифровые символы</strong>, <strong>-</strong> и <strong>_</strong>"
+
+#: ycwp-qr-me.plugin.php:483
+#, fuzzy
+msgid "Add QR Code to posts content"
+msgstr "Добавить QR Код к содержимому поста"
+
+#: ycwp-qr-me.plugin.php:487
+msgid "If not checked, all QR Codes generated with a shortcode, will be not displayed on startup."
+msgstr ""
+
+#: ycwp-qr-me.plugin.php:492
+#, fuzzy
+msgid "Display QR Code only on single posts page"
+msgstr "Отображать QR Код только на одной странице поста"
+
+#: ycwp-qr-me.plugin.php:496
+#, fuzzy
+msgid "If checked, only shows QR Code on posts page"
+msgstr "Если отмечено, показывать QR Код только на странице поста"
+
+#: ycwp-qr-me.plugin.php:501
+#, fuzzy
+msgid "Hide on startup"
+msgstr "Спрятать при запуске"
+
+#: ycwp-qr-me.plugin.php:505
+#, fuzzy
+msgid "If checked, only display a link to show the QR Code, also for shortcodes"
+msgstr "Если отмечено, показывать только ссылку на QR Код, также для шорткодов"
+
+#: ycwp-qr-me.plugin.php:510
+#, fuzzy
+msgid "Show/Hide effect"
+msgstr "Показать/скрыть эффект"
+
+#: ycwp-qr-me.plugin.php:518
+#, fuzzy
+msgid "jQuery effect"
+msgstr "Запросить эффект"
+
+#: ycwp-qr-me.plugin.php:524
+#, fuzzy
+msgid "Save"
+msgstr "Сохранить"
+
+#: ycwp-qr-me.plugin.php:552
+#: ycwp-qr-me.plugin.php:558
+#: ycwp-qr-me.plugin.php:564
+#: ycwp-qr-me.plugin.php:578
+#: ycwp-qr-me.shortcodes.php:754
+#: ycwp-qr-me.shortcodes.php:760
+#: ycwp-qr-me.shortcodes.php:766
+#: ycwp-qr-me.shortcodes.php:780
+#, fuzzy
+msgid "Show QR Code"
+msgstr "Показать QR Код"
+
+#: ycwp-qr-me.plugin.php:552
+#: ycwp-qr-me.plugin.php:558
+#: ycwp-qr-me.plugin.php:564
+#: ycwp-qr-me.plugin.php:580
+#: ycwp-qr-me.shortcodes.php:754
+#: ycwp-qr-me.shortcodes.php:760
+#: ycwp-qr-me.shortcodes.php:766
+#: ycwp-qr-me.shortcodes.php:782
+#, fuzzy
+msgid "Hide QR Code"
+msgstr "Скрыть QR Код"
+
+#: ycwp-qr-me.widget.php:69
+#, fuzzy
+msgid "QR Code"
+msgstr "QR Код"
+
+#: ycwp-qr-me.widget.php:111
+#, fuzzy
+msgid "Title"
+msgstr "Название"
+
+#: ycwp-qr-me.widget.php:115
+#, fuzzy
+msgid "Size"
+msgstr "Размер"
+
+#: ycwp-qr-me.widget.php:142
+#, fuzzy
+msgid "Image classes"
+msgstr "Классы изображений"
+
+#: class.qrcode-ext/class.qrcode_androidmarket.php:42
+#, php-format
+msgid "Unable to set the package %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_contact.php:61
+#: class.qrcode-ext/class.qrcode_sms.php:56
+#: class.qrcode-ext/class.qrcode_tel.php:50
+#, php-format
+msgid "%s is not a valid telephone number."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_contact.php:77
+#, php-format
+msgid "Unable to set the contact %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_email.php:44
+#, php-format
+msgid "%s is not a valid email address."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_email.php:63
+#, php-format
+msgid "Unable to set the email %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_geoloc.php:51
+#, php-format
+msgid "Unable to set the geographical location %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_github.php:41
+#, php-format
+msgid "Unable to set the GitHub's path %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_sms.php:49
+#, php-format
+msgid "Unable to set the sms %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:115
+msgid " is an advanced command."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:128
+#: class.qrcode-ext/class.qrcode_steam.php:150
+#: class.qrcode-ext/class.qrcode_steam.php:192
+#, php-format
+msgid "Unable to set the steam command %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:136
+#, php-format
+msgid "%s command need a value."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:144
+#: class.qrcode-ext/class.qrcode_steam.php:207
+msgid "Unknown command value type."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:157
+#, php-format
+msgid "Unknown command %s"
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:179
+#, php-format
+msgid " %s/%s is not a valid command."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:200
+#, php-format
+msgid " %s/%s command needs a value."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:213
+#, php-format
+msgid "Unable to set the steam command  %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_steam.php:220
+#, php-format
+msgid "Unknown command %s/%s"
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_tel.php:43
+#, php-format
+msgid "Unable to set the telephone number %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:60
+#, php-format
+msgid "Unknown type: %s"
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:77
+msgid "Twitter user needs a user id or a screen name."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:83
+#, php-format
+msgid "Unable to set Twitter user ID %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:90
+#, php-format
+msgid "Unable to set Twitter user screen name %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:97
+msgid "Invalid user ID or screen name."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:113
+msgid "Twitter status needs a user id."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:119
+#, php-format
+msgid "Unable to set Twitter status ID %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:126
+msgid "Invalid status ID."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:139
+msgid "Unable to set Twitter timeline as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:155
+msgid "Unable to set Twitter mentions as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:171
+msgid "Unable to set Twitter messages as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:198
+#, php-format
+msgid "Unable to set Twitter list %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:205
+#, php-format
+msgid "%s is not a valid user screen name"
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:229
+#, php-format
+msgid "Unable to set Twitter post %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:236
+#, php-format
+msgid "%s is not a valid message"
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:252
+#: class.qrcode-ext/class.qrcode_url.php:50
+#: class.qrcode-ext/class.qrcode_viewsource.php:50
+#, php-format
+msgid "Invalid URL: %s"
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_twitter.php:257
+#, php-format
+msgid "Unable to set Twitter shortener URL %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_url.php:43
+#: class.qrcode-ext/class.qrcode_viewsource.php:43
+#, php-format
+msgid "Unable to set the URL %s as content."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_wifi.php:48
+#, php-format
+msgid "%s is not a valid authentication type. Choose WPA or WEP."
+msgstr ""
+
+#: class.qrcode-ext/class.qrcode_wifi.php:61
+#, php-format
+msgid "Unable to set the wifi %s as content."
+msgstr ""
+

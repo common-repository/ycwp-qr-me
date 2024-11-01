@@ -1,0 +1,35 @@
+/**
+ * Version: 1.3
+ * License: GPL v2 or later
+ * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * Author: Nicola Mustone <mail@nicolamustone.it>
+ * Author URI: http://www.nicolamustone.it
+ */
+.ycwp-qr-me-box { 
+    background-color: #dfdfdf;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.ycwp-qr-me-image {
+    margin-top: 10px;
+}
+
+.ycwp-qr-me-toggle {
+    font-weight: bold;
+}
+
+/**
+ * Style overrides
+ */
+ 
+/* PLUGIN STYLE */
+.ycwp-qr-me-box { text-align:center; }
+.ycwp-qr-me-image { }
+.ycwp-qr-me-toggle { }
+.ycwp-qr-me-toggle:hover { }
+
+/* WIDGET STYLE */
+.ycwp-qr-me-widget { }
